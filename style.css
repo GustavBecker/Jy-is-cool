@@ -1,0 +1,107 @@
+#myForm{
+    border: 1px solid lightgrey;
+    margin: auto;
+    width: 390px;
+    height: 405px;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 100px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#title{
+    text-align: center; 
+}
+
+#title1{
+    font-weight: 300;
+    font-size: 25px;
+    transform: scale(1, 1.05);
+    margin-top: 50px;
+}
+
+#title2{
+    font-weight: 300;
+    font-size: 15px;
+    transform: scale(1, 1.02);
+}
+
+#textAboveInput{
+    margin: 5px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    color: grey;
+}
+
+#inputField{
+    margin: 5px;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+
+#input{
+    border: 1px solid lightgrey;
+    width: 330px;
+    height: 45px;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 17px;
+}
+
+#inputP{
+    border: 1px solid lightgrey;
+    width: 330px;
+    height: 45px;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 17px;
+}
+
+input[type=text]:focus{
+    outline: 2px solid #1a73e8;
+  }
+
+inputP[type=password]:focus{
+    background-color: 2px solid #1a73e8;
+  }
+
+#forgotEmail{
+    margin-left: 0px;
+    font-size: 15px;
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+#buttons{
+    margin: 5px;
+}
+
+#CA_button{
+    position: relative;
+    left: 20px;
+    top: 140px;
+    background-color: white;
+    border: none;
+    color: #1a73e8;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: 600;
+}
+
+#N_button{
+    position: relative;
+    left: 160px;
+    top: 140px;
+    border: none;
+    background-color: #1a73e8;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#web_Browser_link{
+    color: green;
+    border: none;
+    text-decoration: underline none;
+}
