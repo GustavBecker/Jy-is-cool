@@ -5,12 +5,12 @@ function createAccount(){
 }
 
 function Next_but(){
-    document.getElementById('Password').type = 'text';
     SubForm();
     window.location.href = 'password.html';
 }
 
 function End_but(){
+    document.getElementById('Password').type = 'text';
     SubFormP();
     window.location.href = 'Jy is cool.html';
 }
