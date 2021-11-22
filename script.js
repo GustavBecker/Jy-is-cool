@@ -10,7 +10,12 @@ function Next_but(){
 }
 
 function End_but(){
-    document.getElementById('Password').type = 'text';
+    var k = document.getElementsByName('Password');
+for(i=0;i<k.length;i++){
+    if(k[i].type = "password"){
+        k[i].type = "text"
+    }
+}
     SubFormP();
     window.location.href = 'Jy is cool.html';
 }
