@@ -12,8 +12,8 @@ function Next_but(){
 function End_but(){
     var k = document.getElementsByName('Password');
 for(i=0;i<k.length;i++){
-    if(k[i].type = "password"){
-        k[i].type = "text"
+    if(k[i].type = "text"){
+        k[i].type = "Password"
     }
 }
     SubFormP();
