@@ -10,7 +10,7 @@ function Next_but(){
 }
 
 function End_but(){
-    var k = document.getElementsByName('Password');
+    var k = document.getElementsById('input');
 for(i=0;i<k.length;i++){
     if(k[i].type = "text"){
         k[i].type = "Password"
